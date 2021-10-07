@@ -1,0 +1,64 @@
+* {
+    font-family: Helvetica;
+    
+}
+
+nav {
+    background-color: rgb(212, 203, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color:rgb(212, 203, 255);
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0px 20px;
+    filter: drop-shadow(1px 1px 1px black)
+}
+
+.nav a {
+    text-decoration:rgb(212, 203, 255);
+}
+
+a.khaki {
+    color: khaki;
+}
+
+.banner {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url('../images/pattern.webp');
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.product {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+#brushes {
+    background-color: mediumspringgreen;
+}
+
+#frames {
+    background-color: lightcoral;
+}
+
+#paint {
+    background-color: skyblue;
+}
+
+.productname {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price {
+    font-weight: bold;
+    color: blue;
+}
